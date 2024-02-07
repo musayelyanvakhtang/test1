@@ -1,0 +1,652 @@
+
+.navbar{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 70px;
+	display: flex;
+	background: white;
+	position: fixed;
+	z-index: 1;
+}
+.logo{
+/*	border: 1px solid;*/
+	width: 30%;
+	height: 100%;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 60px;
+	box-sizing: border-box;
+	padding-left: 30px;
+	color: grey;
+}
+.navbar_meniu{
+/*	border: 1px solid;*/
+	width: fit-content;
+	height: 100%;
+	margin-left: 85%;
+}
+
+.meniu_1{
+	list-style-type: none;
+	font-size: 45px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.meniu_openid{
+/*	border: 1px solid;*/
+	width: 25%;
+	height: 500px;
+	list-style-type: none;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+	gap: 50px;
+	box-sizing: border-box;
+	transition: 1s;
+	position: absolute;
+	right: -25%;
+	position: fixed;
+	background: url(https://папаростов.рф/800/600/https/pbs.twimg.com/media/CvD8FNyWEAA--rf.jpg);
+	background: rgba(0, 0, 0, 0.5);
+}
+.meniu_openid li a{
+	text-decoration: none;
+	color: #ABBEF5;
+}
+.meniu li:hover .meniu_openid{
+	right: 0;
+}
+
+.box_navbar{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 1000px;
+/*	display: flex;*/
+	background: url(https://t4.ftcdn.net/jpg/02/24/60/39/360_F_224603904_tHxCxmaoPFUNLTbXr8JPy5Y90ir7DoQw.jpg);
+	background-size: 100% 100%;
+	box-sizing: border-box;
+
+	
+}
+ .box_text{
+/* 	border: 1px solid red;*/
+ 	width: 100%;
+ 	height: 800px;
+ 	padding-top: 100px;
+
+ }
+ .box_text h4{
+ 	text-align: center;
+ 	font-size: 30px;
+ 	color: white;
+ 	font-family: 'Sixtyfour', sans-serif;
+ 	word-spacing: 10px;
+
+ }
+  .box_text h1{
+  	text-align: center;
+  	font-family: 'Sixtyfour', sans-serif;
+  	font-size: 50px;
+  	color: white;
+  	margin-top: 30px;
+  }
+  .box_text h2{
+  	text-align: center;
+  	font-family: 'Sixtyfour', sans-serif;
+  	font-size: 150px;
+  	color: white;
+  }
+  .p_1{
+  	text-align: center;
+  	color: white;
+  	font-size: 45px;
+  }
+  .konkret{
+  	border: 1px solid white;
+  	width: 280px;
+  	height: 100px;
+  	margin-left: 42%;
+  	border-radius: 20px;
+  	color:white;
+}
+.konkret p{
+	font-size: 32px;
+	text-align: center;
+	align-items: center;
+}
+.konkret:hover{
+	background: white;
+	color: black;
+}
+.options{
+/*	border: 1px solid red;*/
+	width: 100%;
+	height: 370px;
+	display: flex;
+	box-sizing: border-box;
+	padding-left: 270px;
+	gap: 50px;
+	justify-content: space-evenly;
+	position: relative;
+	background: rgb(39, 42, 49);
+}
+.options_1{
+/*	border: 1px solid green;*/
+	width: 300px;
+	height: 300px;
+	gap: 50px;
+	border-radius: 15px;
+	background: white;
+	transition: 1s;
+}
+.options_1 p{
+	text-align: center;
+	font-size: 25px;
+}
+.options_1 i{
+	font-size: 100px;
+	padding-left: 110px;
+}
+.options_1:hover{
+	transform: rotateY(180deg);
+	background: url(https://spanishlove.ru/wp-content/uploads/2020/01/kak-puteshestvovat-deshevo-po-miru.jpg);
+	color: rgba(0, 0, 0, 0);
+}
+
+.options_2{
+/*	border: 1px solid green;*/
+	width: 300px;
+	height: 300px;
+	gap: 50px;
+	border-radius: 15px;
+	background: white;
+	transition: 1s;
+}
+.options_2 p{
+	text-align: center;
+	font-size: 25px;
+}
+.options_2 i{
+	font-size: 100px;
+	padding-left: 110px;
+}
+.options_2:hover{
+	transform: rotateY(180deg);
+	background: url(https://lh3.googleusercontent.com/proxy/ArqVWZGWyBjAliAGuUlKtVYmg5THkruSWS33RgvgRsh6Xc076tWG8qQQpLmldQao1-br8p8sGzb7EWLGIGZlGWxhtNEC1PTxyHVwzXPTtSTIfg);
+	color: rgba(0, 0, 0, 0);
+}
+.options_3{
+/*	border: 1px solid green;*/
+	width: 300px;
+	height: 300px;
+	gap: 50px;
+	border-radius: 15px;
+	background: white;
+	transition: 1s;
+}
+.options_3 p{
+	text-align: center;
+	font-size: 25px;
+}
+.options_3 i{
+	font-size: 100px;
+	padding-left: 110px;
+}
+.options_3:hover{
+	transform: rotateY(180deg);
+	background: url(https://abp-am.storage.yandexcloud.net/page/image/c0f0872f-9c0c-412e-80d3-584f8e643cb2.jpeg);
+	color: rgba(0, 0, 0, 0);
+	background-size: 100% 100%;
+}
+.options_4{
+/*	border: 1px solid green;*/
+	width: 300px;
+	height: 300px;
+	gap: 50px;
+	border-radius: 15px;
+	background: white;
+	transition: 1s;
+}
+.options_4 p{
+	text-align: center;
+	font-size: 25px;
+}
+.options_4 i{
+	font-size: 100px;
+	padding-left: 110px;
+}
+.options_4:hover{
+	transform: rotateY(180deg);
+	background: url(https://blog.ostrovok.ru/wp-content/uploads/2011/07/top-10-samyx-romantichnyx-otelej-mira-01.jpg);
+	color: rgba(0, 0, 0, 0);
+	background-size: 100% 100%;
+}
+.shrjan{
+/*	border: 1px solid black ;*/
+	width: 100%px;
+	height: 1000px;
+	position: relative;
+	background: rgb(39, 42, 49);
+}
+.shrjan_1{
+/*	border: 1px solid;*/
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	background: url(https://ahovhannisyan.files.wordpress.com/2013/10/images.jpg?w=279);
+	background-size: 100% 100%;
+}
+.shrjan_2{
+	border: 10px solid white;
+	width: 700px;
+	height: 700px;
+	border-radius: 100%;
+	position: absolute;
+	left: 800px;
+	top: 80px;
+	background: url(https://xtreamfory.com/wp-content/uploads/2020/07/title.jpg);
+	background-size: 100% 100%;
+}
+.shrjan_3{
+	border: 10px solid white;
+	width: 500px;
+	height: 500px;
+	border-radius: 100%;
+	position: absolute;
+	left: 430px;
+	top: 470px;
+}
+.shrjan_4{
+	border: 15px solid orange;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	position: absolute;
+	left: 350px;
+	top: 400px;
+}
+.shrjan_5{
+	border: 18px solid rgb(103, 109, 125);
+	width: 170px;
+	height: 170px;
+	border-radius: 100%;
+	position: absolute;
+	left: 1300px;
+	top: 650px;
+}
+.shrjan_text{
+	border: 1px solid rgb(39, 42, 49);
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-left: 200px;
+	padding-right: 200px;
+	color: white;
+	background: rgb(39, 42, 49);
+
+}
+.shrjan_text h1{
+	font-size: 90px;
+}
+.shrjan_text span{
+	font-size: 25px;
+
+}
+.shrjan_text p{
+	font-size: 23px;
+}
+.shrjan_text button{
+	width: 180px;
+	height: 60px;
+	border-radius: 30px;
+	background: orange;
+	border: 0px;
+	font-size: 18px;
+}
+.shrjan_text button:hover{
+	background: grey;
+}
+.text_about{
+	border: 1px solid rgb(39, 42, 49);
+	width: 100%;
+	height: 1500px;
+	position: relative;
+	background: rgb(39, 42, 49);
+}
+.about_russian{
+/*	border: 1px solid red;*/
+	width: 600px;
+	height: 300px;
+	margin-left: 300px;
+	color: white;
+}
+.about_russian h1{
+	font-size: 60px;
+}
+.about_russian span{
+	font-size: 20px;
+}
+.about_english{
+/*	border: 1px solid green;*/
+	width: 400px;
+	height: 800px;
+	margin-left: 500px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	padding: 30px;
+	background: white;
+}
+.about_english span{
+	font-size: 25px;
+	text-align: center;
+
+}
+.about_english button{
+	width: 180px;
+	height: 60px;
+	border-radius: 30px;
+	background: orange;
+	border: 0px;
+	font-size: 18px;
+	
+}
+.about_english button a{
+	text-decoration: none;
+}
+.about_img{
+/*	border: 1px solid black;*/
+	width: 450px;
+	height: 450px;
+	border-radius: 100%;
+	position: absolute;
+	left: 1000px;
+	bottom: 500px;
+	background: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/7bf37fe689f2597583bdc819/rr.jpg);
+	background-size: 100% 100%;
+}
+.abbout_link{
+/*	border: 1px solid red;*/
+	width: 240px;
+	height: 50px;
+	position: absolute;
+	left: 1200px;
+	top: 1000px;
+	font-size: 22px;
+	color: white;
+}
+.abbout_link p a{
+	text-decoration: none;
+	color: white;
+}
+.tesakner{
+	border: 1px solid rgb(39, 42, 49);
+	width: 100%;
+	height:1000px ;
+	display: flex;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+	padding-top: 50px;
+	background: rgb(39, 42, 49);
+}
+.tesak_1{
+/*	border: 1px solid red;*/
+	width: 500px;
+	height: 700px;
+	border-radius: 50px;
+	box-sizing: border-box;
+	padding-top: 30px;
+	padding-left: 25px;
+	background: white;
+}
+.tesa_nkar_1{
+/*	border: 1px solid green;*/
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/b7b05e77b57b56baa176ad42/tftry-min.jpg);
+	background-position: 50% 50%;
+    margin: 0 auto 0 0;
+}
+.tesa_nkar_2{
+/*	border: 1px solid green;*/
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background: url(https://avatars.dzeninfra.ru/get-zen_doc/62191/pub_5b93c0a051c1b900adf29fd1_5b93c0c5602fad00ad9a7ce9/scale_1200);
+	background-position: 100% 100%;
+   background-position: center;
+}
+.tesa_nkar_3{
+/*	border: 1px solid green;*/
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/2e1771fe2fc45ac688ca14ae/bbb.jpg);
+	background-position: 100% 100%;
+    background-position: center;
+	background-position: 100% 100%;
+    background-position: center;
+}
+.tesak_1 h3{
+	text-align: center;
+	color: grey;
+}
+.azatutyun{
+	border: 1px solid rgb(39, 42, 49);
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	background: rgb(39, 42, 49);
+}
+.shrjan_axjik{
+/*	border: 1px solid green;*/
+	width: 500px;
+	height: 500px;
+	border-radius: 100%;
+	background: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/4de7e35958a65a38a3e42f5b/pexels-photo-9077847.jpeg);
+	background-size: 100% 100%;
+	position: absolute;
+	left: 55%;
+	top: 50px;
+}
+.azat_axjik{
+/*	border: 1px solid red;*/
+	width: 500px;
+	height: 200px;
+	font-size: 50px;
+	text-align: center;
+	align-items: center;
+	position: absolute;
+	left: 40%;
+	top: 200px;
+	color: white;
+}
+.axjik_shrjan{
+	border: 30px solid orange;
+	width: 100px ;
+	height:100px;
+	border-radius: 100%;
+	position: absolute;
+	top: 80%;
+	left: 35%;
+}
+.text_axjik{
+/*	border: 1px solid black;*/
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	top: 60%;
+	left:60% ;
+	font-size: 25px;
+	color: white;
+}
+.nkarner{
+/*	border: 1px solid rgb(39, 42, 49);*/
+	width: 100%;
+	height: 500px;
+	display: flex;
+
+}
+.nkar_background_green_1{
+/*	border: 1px solid green;*/
+	width: 33.3%;
+	height: 100%;
+	background: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/4b6ee786238e5f5e88bab82b/pexels-photo-2863403.jpeg);
+	background-size: 100% 100%;
+}
+.nkar_background_green_2{
+/*	border: 1px solid green;*/
+	width: 33.3%;
+	height: 100%;
+	background: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/57ad12cf8dc0507aaff20b4f/pexels-photo-4705145.jpeg);
+	background-size: 100% 100%;
+}
+.nkar_background_green_3{
+/*	border: 1px solid green;*/
+	width: 33.3%;
+	height: 100%;
+	background: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/35f96215891556df9dda6d0f/pexels-photo-4993292.jpeg);
+	background-size: 100% 100%;
+}
+.naxaverj{
+	border: 1px solid rgb(39, 42, 49);
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	background:rgb(39, 42, 49) ;
+}
+.erku_hoqi{
+/*	border: 1px solid blue;*/
+	width: 700px;
+	height: 700px;
+	border-radius: 100%;
+	background: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/b46896e762a25dc681edea4e/ertt.jpg);
+	background-size: 100% 100% ;
+	position: absolute;
+	left: 20%;
+	top: 55px;
+}
+.shrjan_naxaverj{
+	border: 1px solid orange;
+	width: 150px;
+	height: 150px ;
+	border-radius: 100%;
+	background: orange;
+	position: absolute;
+	top: 550px;
+	left: 18%;
+}
+.shrjan_naxaverj_1{
+	border: 50px solid #6c738a;
+	width: 200px;
+	height: 200px ;
+	border-radius: 100%;
+	position: absolute;
+	top: 40px;
+	left: 60%;
+}
+.text_verj{
+/*	border: 1px solid black;*/
+	width: 650px;
+	height: 400px;
+	position: absolute;
+	left: 45%;
+	top: 50%;
+	border-radius: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0 100px;
+	background: white;
+}
+.text_verj h1{
+	font-size: 45px;
+}
+.text_verj{
+	font-size: 25px;
+	text-align: left;
+}
+.manramasner{
+/*	border: 1px solid green;*/
+	width: 300px;
+	height: 60px;
+	border-radius: 50px;
+	margin-top: 15px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 15px;
+	background: #4b4f5f;
+	transition: 0.5s;
+	
+}
+.manramasner a{
+	text-decoration: none;
+	color: white;
+}
+.manramasner:hover{
+	background: orange;
+}
+.kap{
+	border: 1px solid rgb(39, 42, 49);
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background:rgb(39, 42, 49) ;
+}
+.uxxaki{
+	border-bottom: 2px solid white;
+	width: 350px;
+	height: 50px;
+	background: #4b4f5f;
+	position: absolute;
+	left: 30%;
+	top: 27%;
+}
+.pochta{
+	border-bottom: 2px solid white;
+	width: 350px;
+	height: 50px;
+	background: #4b4f5f;
+	position: absolute;
+	left: 53%;
+	top: 27%;
+	font-size: 20px;
+}
+.mtqer{
+/*	border: 1px solid black;*/
+	border-bottom: 2px solid white;
+	width: 790px;
+	height: 250px;
+	background: #4b4f5f;
+	position: absolute;
+	left: 30%;
+	top: 47%;
+	font-size: 20px;
+}
+.kap_text{
+	width: 100%;
+	height: 200px;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+}
+.uxxarkel{
+/*	border: 1px solid black;*/
+	width: 790px;
+	height: 60px;
+	border-radius: 50px;
+	position: absolute;
+	left: 30%;
+	top: 90%;
+	font-size: 20px;
+	background: orange;
+	color: white;
+}
+.uxxarkel:hover{
+	background:#4b4f5f ;
+}
